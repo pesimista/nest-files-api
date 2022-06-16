@@ -49,7 +49,7 @@ UNSPLASH_SECRET_KEY=
 
 1. copiar los environments requeridos en el archivo `.env` (fueron enviados junto al email)
 
-1. para inicial el contenedor, ejecutar: 
+2. para inicial el contenedor, ejecutar: 
 ```
 
 docker-compose build
@@ -57,7 +57,7 @@ docker-compose up -d
 
 ```
 
-1. para detener el contenedor basta con ejecutar
+3. para detener el contenedor basta con ejecutar
 
 ```
 
@@ -65,7 +65,7 @@ docker-compose down
 
 ```
 
-1. una forma rapida para comenzar a testear la API es utilizando la coleccion de Postman que esta en el repositorio [api.postman_collection.json](./api.postman_collection.json), es sencillamente importarlos desde la app de Postman y ya tendran accesso a todos los calls
+4. una forma rapida para comenzar a testear la API es utilizando la coleccion de Postman que esta en el repositorio [api.postman_collection.json](./api.postman_collection.json), es sencillamente importarlos desde la app de Postman y ya tendran accesso a todos los calls
 
 
 ### Nota:
