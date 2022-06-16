@@ -21,11 +21,7 @@ Bucket: ***
 
 ### Para base de datos:
 
-El sistema que mejor consideres para el tipo de estructura.
-
-### Para autenticación:
-
-Un servicio de OAuth mediante Token.
+El sistema que mejor consideres para el tipo de estructura. (mongoDB fue la eleccion)
 
 ## Se valorará el uso de las siguientes tecnologías:
 
@@ -49,4 +45,30 @@ UNSPLASH_ACCESS_KEY=
 UNSPLASH_SECRET_KEY=
 ```
 
-Happy coding!
+## Instrucciones de ejecucion
+
+1. copiar los environments requeridos en el archivo `.env` (fueron enviados junto al email)
+
+1. para inicial el contenedor, ejecutar: 
+```
+
+docker-compose build
+docker-compose up -d
+
+```
+
+1. para detener el contenedor basta con ejecutar
+
+```
+
+docker-compose down
+
+```
+
+1. una forma rapida para comenzar a testear la API es utilizando la coleccion de Postman que esta en el repositorio [api.postman_collection.json](./api.postman_collection.json), es sencillamente importarlos desde la app de Postman y ya tendran accesso a todos los calls
+
+
+### Nota:
+- El rename no funciona del todo, puesto que las credenciales que me facilitaron no permiten eliminar archivos dentro del bucket
+
+Happy Testing!
